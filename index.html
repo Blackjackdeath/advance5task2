@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Конвертер</h1>
+        <div class="inputBox">
+            <input type="number" id="sell" min="0" class="inputStyle" value="0"><label for="sell" id='uaType'>Українська гривня</label>
+            <button type="button" class="styleButton">&#8645;</button>
+            <input type="number" id="buy" min="0" class="inputStyle" value="0" readonly><label for="buy" id="typeMoney">USD</label>
+            <button type="button" class="styleButton">=</button>
+        </div>
+        <table>
+            <tr>
+                <td class="firstCell"></td>
+                <td class="maineCell">Купівля</td>
+                <td class="maineCell">Продаж</td>
+            </tr>
+            <tr>
+                <td class="firstCell">
+                    <input type="radio" name="kurs" id="dollar" checked value="USD"><label for="dollar">USD</label>
+                </td>
+                <td class="maineCell buyCell"></td>
+                <td class="maineCell saleCell"></td>
+            </tr>
+            <tr>
+                <td class="firstCell">
+                    <input type="radio" name="kurs" id="euro" value="EUR"><label for="euro">EUR</label>
+                </td>
+                <td class="maineCell buyCell"></td>
+                <td class="maineCell saleCell"></td>
+            </tr>
+            <tr>
+                <td class="firstCell">
+                    <input type="radio" name="kurs" id="rub" value="RUB"><label for="rub">RUB</label>
+                </td>
+                <td class="maineCell buyCell"></td>
+                <td class="maineCell saleCell"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

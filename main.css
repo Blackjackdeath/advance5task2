@@ -1,0 +1,56 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+input{
+    border: none;
+    border-radius: 2px;
+    height: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+label{
+    margin-bottom: 20px;
+}
+.inputStyle:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 2px black;
+    
+}
+.wrapper{
+    border-radius: 5px;
+    background-color: yellowgreen;
+    border: greenyellow 3px solid;
+    padding: 10px;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+}
+.radioBox{
+    display: flex;
+    flex-direction: column;
+}
+.firstCell{
+    width: 80px;
+    font-size: 20px;
+}
+.maineCell{
+    width: 100px;
+    font-size: 15px;
+}
+.styleButton{
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
